@@ -1,7 +1,6 @@
 CCcamInfoConfigMenu
 CCcamInfoConfigSwitcher
 CCcamInfoEcmInfoSelection
-CCcamInfoInfoScreen
 CCcamInfoMenuConfig
 CCcamInfoRemoteBoxMenu
 CCcamInfoShareInfo
