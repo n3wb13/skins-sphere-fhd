@@ -1,4 +1,3 @@
-BootlogoSetupScreen
 BootvideoSetupScreen
 CCcamInfoConfigMenu
 CCcamInfoConfigSwitcher
