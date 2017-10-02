@@ -1,0 +1,79 @@
+<skin>
+<!-- EMC Selection -->
+<screen name="EMCSelection" position="center,center" size="1920,1080" title="" flags="wfNoBorder">
+	<ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg2.png" />
+ 	<widget source="global.CurrentTime" render="Label" position="1660,795" size="210,48" font="Regular;38" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="ClockToText">Default</convert>
+	</widget>
+	<widget source="global.CurrentTime" render="Label" position="1660,852" size="210,45" font="Regular;35" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="ClockToText">Format:%A</convert>
+	</widget>
+	<widget source="global.CurrentTime" render="Label" position="1660,905" size="210,41" font="Regular;31" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="ClockToText">Format:%e. %b</convert>
+	</widget>
+	<ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/media.png" alphatest="blend" transparent="1" />
+	<widget source="Title" render="Label" position="380,60" size="365,70" font="Regular;24" halign="center" valign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+	<widget source="Service" render="Label" position="320,130" size="490,90" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="EMCEventName">Name</convert>
+	</widget>
+	<widget name="Cover" position="1348,200" size="200,300" zPosition="5" alphatest="blend" />
+	<widget source="Service" render="Label" position="1260,90" size="110,40" font="Regular;30" halign="left" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="EMCServiceTime">StartTime</convert>
+		<convert type="EMCClockToText">Format:%H:%M </convert>
+	</widget>
+	<widget source="Service" render="Label" position="1345,90" size="110,40" font="Regular;30" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="EMCServiceTime">EndTime</convert>
+		<convert type="EMCClockToText">Format:- %H:%M </convert>
+	</widget>
+	<widget source="Service" render="Label" position="1490,90" size="160,40" font="Regular;30" halign="left" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="EMCServiceTime">Duration</convert>
+		<convert type="EMCClockToText">Format:%Hh:%Mmin</convert>
+	</widget>
+	<widget source="Service" render="Label" position="1250,140" size="400,40" font="Bold;30" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="EMCMovieInfo">RecordServiceName</convert>
+	</widget>
+	<ePixmap position="217,216" size="700,480" zPosition="5" pixmap="SphereFHD/png/listboxen/schmal/listbox_40.png" alphatest="blend" />
+	<widget name="list" position="217,216" size="700,480" itemHeight="40" CoolFont="Regular;28" CoolSelectFont="Regular;28" CoolDateFont="Regular;28" CoolMoviePos="35" CoolMovieSize="565" CoolFolderSize="565" CoolTitleColor="0" CoolDatePos="1000" CoolDateWidth="122" CoolDateColor="0" CoolHighlightColor="0" CoolProgressPos="1000" CoolBarPos="610" CoolBarHPos="15" CoolBarSize="80,12" CoolBarSizeSa="80,12"  DefaultColor="white" UnwatchedColor="white" WatchingColor="#3486F4" FinishedColor="#46D93A" RecordingColor="#9F1313" BackColorSel="#00ffffff"  foregroundColorSelected="white" backgroundColor="#00000000" scrollbarMode="showNever" transparent="1" />
+	<ePixmap position="240,700" size="656,2" pixmap="SphereFHD/png/extra/sep656.png" backgroundColor="transpGrey" zPosition="25" transparent="0" />
+	<!-- EMC Short Description -->
+	<widget source="Service" render="Label" position="280,715" size="562,71" font="Regular;26" halign="center" valign="center" zPosition="2" foregroundColor="white" backgroundColor="transpGrey" transparent="1" >
+		<convert type="EMCMovieInfo">ShortDescription</convert>
+	</widget>
+	<widget source="Service" render="Label" position="280,800" size="562,40" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="EMCServiceTime">StartTime</convert>
+		<convert type="EMCClockToText">Date</convert>
+	</widget>
+	<widget name="wait" position="0,center" size="1920,50" zPosition="1" font="Regular;32" foregroundColor="white" backgroundColor="#18080911" halign="center" valign="center" />
+	<widget source="Service" render="VRunningText" options="movetype=running,startpoint=0,direction=top,steptime=90,repeat=2,startdelay=4000,wrap" position="1210,530" size="500,160" font="Regular;28" halign="center" valign="top" foregroundColor="white" backgroundColor="transpGrey" transparent="1" >
+		<convert type="EMCEventName">ExtendedDescription</convert>
+	</widget>
+	<widget source="Service" render="Label" position="1250,745" size="400,40" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+			<convert type="EMCMovieInfo">FileSize</convert>
+	</widget>
+	<!-- this for audio metadata -->
+	<widget name="name" position="69,337" size="380,55" valign="center" halign="center" font="Regular;22" backgroundColor="transpGrey" foregroundColor="#00bab329" transparent="1" />
+	<widget name="artistAT" position="50,401" size="150,25" font="Regular;20" backgroundColor="transpGrey" foregroundColor="#00bab329" transparent="1" noWrap="1" />
+	<widget name="albumAT" position="50,462" size="150,25" font="Regular;20" backgroundColor="transpGrey" foregroundColor="#00bab329" transparent="1" noWrap="1" />
+	<widget name="genreAT" position="50,523" size="150,25" font="Regular;20" backgroundColor="transpGrey" foregroundColor="#00bab329" transparent="1" noWrap="1" />
+	<widget name="runtimeAT" position="50,584" size="150,25" font="Regular;20" backgroundColor="transpGrey" foregroundColor="#00bab329" transparent="1" noWrap="1" />
+	<widget name="artistATtxt" position="210,401" size="265,50" font="Regular;19" halign="right" backgroundColor="transpGrey" foregroundColor="white" transparent="1" />
+	<widget name="albumATtxt" position="210,462" size="265,50" font="Regular;19" halign="right" backgroundColor="transpGrey" foregroundColor="white" transparent="1" />
+	<widget name="genreATtxt" position="210,523" size="265,50" font="Regular;19" halign="right" backgroundColor="transpGrey" foregroundColor="white" transparent="1" />
+	<widget name="runtimeATtxt" position="210,584" size="265,50" font="Regular;19" halign="right" backgroundColor="transpGrey" foregroundColor="white" transparent="1" />
+	<widget name="date" position="50,640" size="270,25" font="Regular;17" halign="left" backgroundColor="transpGrey" foregroundColor="#00bab329" transparent="1" />
+	<widget name="size" position="375,640" size="100,25" font="Regular;17" halign="right" backgroundColor="transpGrey" foregroundColor="#00bab329" transparent="1" />
+	<!-- end of new audio metadata -->
+	<ePixmap pixmap="SphereFHD/buttons/red.png" position="325,980" size="50,50" alphatest="blend" />
+	<ePixmap pixmap="SphereFHD/buttons/green.png" position="675,980" size="50,50" alphatest="blend" />
+	<ePixmap pixmap="SphereFHD/buttons/yellow.png" position="1025,980" size="50,50" alphatest="blend" />
+	<ePixmap pixmap="SphereFHD/buttons/blue.png" position="1375,980" size="50,50" alphatest="blend" />
+	<widget name="key_red" position="382,980" size="370,50" halign="left" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+	<widget name="key_green" position="732,980" size="370,50" halign="left"	valign="center" noWrap="1"  zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+	<widget name="key_yellow" position="1082,980" size="370,50" halign="left" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+	<widget name="key_blue" position="1432,980" size="370,50" halign="left" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+	<ePixmap pixmap="SphereFHD/buttons/epg.png" position="1685,990" size="50,50" alphatest="blend"/>
+	<ePixmap pixmap="SphereFHD/buttons/menu.png" position="1745,1000" size="50,50" alphatest="blend" />
+	<ePixmap pixmap="SphereFHD/buttons/ok.png" position="1805,1010" size="50,50" alphatest="blend"/>
+	<ePixmap pixmap="SphereFHD/buttons/exit.png" position="1865,1020" size="50,50" alphatest="blend" />
+</screen>
+</skin>

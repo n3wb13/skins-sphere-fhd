@@ -1,0 +1,151 @@
+﻿<skin>
+
+<screen name="InfoBar" position="0,0" size="1920,1080" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
+  <ePixmap position="0,0" zPosition="-5" size="1920,1080" pixmap="SphereFHD/png/bg_EPGsel.png" />
+  <panel name="Time" />
+  <widget source="session.CurrentService" position="650,760" size="600,40" render="Label" font="Regular; 26" noWrap="1" foregroundColor="white" backgroundColor="transpGrey" valign="top" transparent="1" zPosition="0" halign="center">
+    <convert type="ServiceName">Provider</convert>
+  </widget>
+  <widget source="session.CurrentService" position="650,800" size="600,40" render="Label" font="Regular; 26" noWrap="1" foregroundColor="white" backgroundColor="transpGrey" valign="top" transparent="1" zPosition="0" halign="center">
+    <convert type="ServiceName">Name</convert>
+  </widget>
+  <widget font="Regular; 26" text="222" halign="left" noWrap="1" position="350,839" render="Label" size="80,40" source="session.CurrentService" foregroundColor="white" backgroundColor="transpGrey" transparent="1" valign="top" zPosition="0">
+    <convert type="ExtendedServiceInfo">ServiceNumber</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="350,1036" size="900,30"  foregroundColor="grey" backgroundColor="transpGrey" font="Regular; 26" transparent="1" zPosition="21" halign="center">
+      <convert type="CaidInfo2" />
+    </widget>
+  <widget source="session.CurrentService" render="Label" position="1340,1036" size="510,30" zPosition="3" font="Regular; 26" halign="center" noWrap="1" foregroundColor="white" backgroundColor="transpGrey" transparent="1" text="CCcam 2.3.0">
+      <convert type="CamdRAED">Camd</convert>
+    </widget>
+  <widget source="session.CurrentService" render="Picon" position="70,850" size="220,132" transparent="1" alphatest="blend">
+    <convert type="ServiceName">Reference</convert>
+  </widget>
+  <eLabel text="SNR:" position="1340,840" size="90,30" font="Regular;24" foregroundColor="grey" backgroundColor="transpGrey1" transparent="1" />
+  <widget source="session.FrontendStatus" render="Label" position="1410,840" size="120,30" font="Regular;24" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+    <convert type="FrontendInfo">SNR</convert>
+  </widget>
+  <eLabel text="AGC:" position="1340,870" size="90,30" font="Regular;24" foregroundColor="grey" backgroundColor="transpGrey1" transparent="1" />
+  <widget source="session.FrontendStatus" render="Label" position="1410,870" size="120,30" font="Regular;24" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+    <convert type="FrontendInfo">AGC</convert>
+  </widget>
+  <eLabel text="-" position="1135,900" size="15,50" font="Regular; 40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" zPosition="1" valign="top" />
+  <eLabel text="-" position="1135,970" size="15,50" font="Regular; 40" halign="center" foregroundColor="grey" backgroundColor="transpGrey" transparent="1" zPosition="1" valign="top" />
+  <widget alphatest="blend" foregroundColor="white" backgroundColor="transparent" font="Regular;40" halign="left" valign="top" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=1000,always=0" position="350,900" render="VRunningText" size="650,50" source="session.Event_Now" transparent="1" noWrap="1">
+    <convert type="EventName">Name</convert>
+  </widget>
+  <widget source="session.Event_Now" render="Label" position="1000,900" size="130,50" font="Regular;40" foregroundColor="white" backgroundColor="transpGrey" transparent="1" valign="top" halign="right">
+    <convert type="EventTime">StartTime</convert>
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget source="session.Event_Now" render="Label" position="1130,900" size="140,50" font="Regular;40" foregroundColor="white" backgroundColor="transpGrey" transparent="1" halign="right" valign="top">
+    <convert type="EventTime">EndTime</convert>
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <ePixmap position="350,952" size="920,16" zPosition="1" pixmap="SphereFHD/png/extra/progress_back.png" />
+  <widget source="session.Event_Now" render="Progress" position="350,952" size="920,16" pixmap="SphereFHD/png/extra/progress.png" borderWidth="2" borderColor="black" zPosition="2" transparent="1">
+    <convert type="EventTime">Progress</convert>
+  </widget>
+  <widget alphatest="blend" foregroundColor="grey" backgroundColor="transparent" font="Regular;40" halign="left" valign="top" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=1000,always=0" position="350,970" render="VRunningText" size="650,50" source="session.Event_Next" transparent="1" noWrap="1">
+    <convert type="EventName">Name</convert>
+  </widget>
+  <widget source="session.Event_Next" render="Label" position="1000,970" size="130,50" font="Regular;40" foregroundColor="grey" backgroundColor="transpGrey" transparent="1" halign="right" valign="top">
+    <convert type="EventTime">StartTime</convert>
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget source="session.Event_Next" render="Label" position="1130,970" size="140,50" font="Regular;40" foregroundColor="grey" backgroundColor="transpGrey" transparent="1" halign="right" valign="top">
+    <convert type="EventTime">EndTime</convert>
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <ePixmap name="Tuner1off" position="1305,990" size="20,6" pixmap="SphereFHD/png/extra/led-off.png" transparent="1" />
+  <ePixmap name="Tuner2off" position="1305,1000" size="20,6" pixmap="SphereFHD/png/extra/led-off.png" transparent="1" />
+  <ePixmap name="Tuner3off" position="1305,1010" size="20,6" pixmap="SphereFHD/png/extra/led-off.png" transparent="1" />
+  <ePixmap name="Tuner4off" position="1305,1020" size="20,6" pixmap="SphereFHD/png/extra/led-off.png" transparent="1" />
+  <widget source="session.FrontendInfo" render="Pixmap" pixmap="SphereFHD/png/extra/led-on.png" position="1305,990" size="20,6" zPosition="2" alphatest="blend" transparent="1">
+    <convert type="FrontendInfo">NUMBER</convert>
+    <convert type="ValueRange">0,0</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget source="session.FrontendInfo" render="Pixmap" pixmap="SphereFHD/png/extra/led-on.png" position="1305,1000" size="20,6" zPosition="2" alphatest="blend" transparent="1">
+    <convert type="FrontendInfo">NUMBER</convert>
+    <convert type="ValueRange">1,1</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget source="session.FrontendInfo" render="Pixmap" pixmap="SphereFHD/png/extra/led-on.png" position="1305,1010" size="20,6" zPosition="2" alphatest="blend" transparent="1">
+    <convert type="FrontendInfo">NUMBER</convert>
+    <convert type="ValueRange">2,2</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget source="session.FrontendInfo" render="Pixmap" pixmap="SphereFHD/png/extra/led-on.png" position="1305,1020" size="20,6" zPosition="2" alphatest="blend" transparent="1">
+    <convert type="FrontendInfo">NUMBER</convert>
+    <convert type="ValueRange">3,3</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget source="session.TunerInfo" render="Pixmap" pixmap="SphereFHD/png/extra/led-ok.png" position="1305,990" size="20,6" zPosition="1" alphatest="blend" transparent="1">
+    <convert type="TunerInfo">TunerUseMask</convert>
+    <convert type="ValueBitTest">1</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget source="session.TunerInfo" render="Pixmap" pixmap="SphereFHD/png/extra/led-ok.png" position="1305,1000" size="20,6" zPosition="1" alphatest="blend" transparent="1">
+    <convert type="TunerInfo">TunerUseMask</convert>
+    <convert type="ValueBitTest">2</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget source="session.TunerInfo" render="Pixmap" pixmap="SphereFHD/png/extra/led-ok.png" position="1305,1010" size="20,6" zPosition="1" alphatest="blend" transparent="1">
+    <convert type="TunerInfo">TunerUseMask</convert>
+    <convert type="ValueBitTest">4</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget source="session.TunerInfo" render="Pixmap" pixmap="SphereFHD/png/extra/led-ok.png" position="1305,1020" size="20,6" zPosition="1" alphatest="blend" transparent="1">
+    <convert type="TunerInfo">TunerUseMask</convert>
+    <convert type="ValueBitTest">8</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget render="VWeatherUpdater" source="global.CurrentTime" position="33,45" size="0,0" font="Regular;1" foregroundColor="transparent" backgroundColor="transparent" halign="center" valign="center" zPosition="10" />
+  <!--widget source="session.CurrentService" render="Pixmap" pixmap="SphereFHD/icons/ico_update_info.png" position="1342,934" size="48,48" zPosition="5" transparent="1" alphatest="blend">
+    <convert type="ConfigEntryTest">config.usage.update_available,True,CheckSourceBoolean</convert>
+    <convert type="ConditionalShowHide" />
+  </widget-->
+  <widget source="session.CurrentService" render="Label" position="1340,1005" size="80,30" font="Regular;26" halign="right" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+    <convert type="ServiceInfo">VideoWidth</convert>
+  </widget>
+  <eLabel text="x" position="1420,1005" size="15,30" font="Regular;26" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget source="session.CurrentService" render="Label" position="1435,1005" size="80,30" font="Regular;26" halign="left" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+    <convert type="ServiceInfo">VideoHeight</convert>
+  </widget>
+  <ePixmap pixmap="SphereFHD/icons/ico_hd_off.png" position="1502,1006" size="49,24" zPosition="1" alphatest="blend" />
+  <widget source="session.CurrentService" render="Pixmap" pixmap="SphereFHD/icons/ico_hd_on.png" position="1502,1006" size="49,24" zPosition="2" alphatest="blend">
+    <convert type="ServiceInfo">VideoWidth</convert>
+    <convert type="ValueRange">721,1980</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <ePixmap pixmap="SphereFHD/icons/ico_format_off.png" position="1561,1005" size="41,26" zPosition="1" alphatest="blend" />
+  <widget source="session.CurrentService" render="Pixmap" pixmap="SphereFHD/icons/ico_format_on.png" position="1561,1005" size="41,26" zPosition="2" alphatest="blend">
+    <convert type="ServiceInfo">IsWidescreen</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <ePixmap pixmap="SphereFHD/icons/ico_txt_off.png" position="1612,1006" size="28,24" zPosition="1" alphatest="blend" />
+  <widget source="session.CurrentService" render="Pixmap" pixmap="SphereFHD/icons/ico_txt_on.png" position="1612,1006" size="28,24" zPosition="2" alphatest="blend">
+    <convert type="ServiceInfo">HasTelext</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <ePixmap pixmap="SphereFHD/icons/ico_dolby_off.png" position="1650,1006" size="64,23" zPosition="1" alphatest="blend" />
+  <widget source="session.CurrentService" render="Pixmap" pixmap="SphereFHD/icons/ico_dolby_on.png" position="1650,1006" size="64,23" zPosition="2" alphatest="blend">
+    <convert type="ServiceInfo">IsMultichannel</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <ePixmap pixmap="SphereFHD/icons/ico_crypt_off.png" position="1724,1005" size="27,25" zPosition="1" alphatest="blend" />
+  <widget source="session.CurrentService" render="Pixmap" pixmap="SphereFHD/icons/ico_crypt_on.png" position="1724,1005" size="27,25" zPosition="2" alphatest="blend">
+    <convert type="ServiceInfo">IsCrypted</convert>
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <ePixmap pixmap="SphereFHD/icons/ico_hbbtv_off.png" position="1753,997" size="96,36" zPosition="1" alphatest="blend" />
+  <widget source="HbbtvApplication" render="Pixmap" pixmap="SphereFHD/icons/ico_hbbtv_on.png" position="1753,997" size="96,36" zPosition="10" alphatest="blend">
+    <convert type="ConditionalShowHide" />
+  </widget>
+  <widget source="session.RecordState" render="Pixmap" position="1860,1003" size="32,32" pixmap="SphereFHD/png/extra/record.png" alphatest="blend">
+    <convert type="ConditionalShowHide">Blink</convert>
+  </widget>
+</screen>
+ 
+</skin>

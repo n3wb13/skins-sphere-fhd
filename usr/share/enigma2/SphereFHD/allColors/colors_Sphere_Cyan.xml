@@ -1,0 +1,59 @@
+<skin>
+	<colors>
+		<color name="background" value="#40000000" />
+		<color name="foreground" value="#00ffffff" />
+		<color name="selection" value="#00149bae" />
+		<color name="black" value="#00000000" />
+		<color name="dark" value="#00000000" />
+		<color name="blue" value="#001677d2" />
+		<color name="red" value="#00db1010"/>
+		<color name="green" value="#0070ad11"/>
+		<color name="yellow" value="#00e5b243" />
+		<color name="white" value="#00ffffff" />
+		<color name="grey" value="#00aaaaaa" />
+		<color name="violett" value="#006774db" />
+		<color name="transpBlack" value="#80000000" />
+		<color name="transpBlack2" value="#20000000" />
+		<color name="transpBlack3" value="#10000000" />
+		<color name="darkgrey" value="#00777777" />
+		<color name="transpGrey" value="#30000000" />
+		<color name="SphereFHDGrey" value="#30888888" />
+		<color name="transpGrey1" value="#10000000" />
+		<color name="transpGrey2" value="#30141414" />
+		<color name="transpGrey3" value="#40121212" />
+		<color name="transpyellow" value="#33bab329" />
+		<color name="transpWhite" value="#77ffffff" />
+		<color name="teac" value="#00139aae" />
+		<color name="label" value="#00088acb" />
+		<color name="darkolivegreen" value="#00a2cd5a" />
+		<color name="cyan" value="#00088acb" />
+		<color name="orange" value="#00eb6e01" />
+		<color name="transfont" value="#ccffffff" />
+		<color name="transparent" value="#ffffffff" />
+	</colors>
+	<windowstyle type="skinned" id="0">
+		<title offset="30,28" font="Regular;26" />
+		<color name="Background" color="transpGrey" />
+		<color name="LabelForeground" color="label" />
+		<color name="ListboxBackground" color="transpGrey" />
+		<color name="ListboxForeground" color="foreground" />
+		<color name="ListboxSelectedBackground" color="label" />
+		<color name="ListboxSelectedForeground" color="foreground" />
+		<color name="ListboxMarkedBackground" color="teac" />
+		<color name="ListboxMarkedForeground" color="foreground" />
+		<color name="ListboxMarkedAndSelectedBackground" color="blue" />
+		<color name="ListboxMarkedAndSelectedForeground" color="foreground" />
+		<color name="WindowTitleForeground" color="foreground" />
+		<color name="WindowTitleBackground" color="background" />
+		<borderset name="bsWindow">
+			<pixmap pos="bpTopLeft" filename="SphereFHD/png/bsWindow/bs_tl.png" />
+			<pixmap pos="bpTop" filename="SphereFHD/png/bsWindow/bs_t.png" />
+			<pixmap pos="bpTopRight" filename="SphereFHD/png/bsWindow/bs_tr.png" />
+			<pixmap pos="bpLeft" filename="SphereFHD/png/bsWindow/bs_l.png" />
+			<pixmap pos="bpRight" filename="SphereFHD/png/bsWindow/bs_r.png" />
+			<pixmap pos="bpBottomLeft" filename="SphereFHD/png/bsWindow/bs_bl.png" />
+			<pixmap pos="bpBottom" filename="SphereFHD/png/bsWindow/bs_b.png" />
+			<pixmap pos="bpBottomRight" filename="SphereFHD/png/bsWindow/bs_br.png" />
+		</borderset>
+	</windowstyle>
+</skin>

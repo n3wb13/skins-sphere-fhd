@@ -1,0 +1,48 @@
+<skin>
+<!-- MovieSelection  listbox_60 -->
+<screen name="MovieSelection" position="0,0" size="1920,1080" title="" zPosition="1" backgroundColor="transparent" flags="wfNoBorder">
+	<ePixmap position="0,0" zPosition="-5" size="1920,1080" pixmap="SphereFHD/png/bg2.png" />
+	<widget source="global.CurrentTime" render="Label" position="1663,795" size="210,48" font="Regular;38" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="ClockToText">Default</convert>
+	</widget>
+	<widget source="global.CurrentTime" render="Label" position="1663,852" size="210,45" font="Regular;35" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="ClockToText">Format:%A</convert>
+	</widget>
+	<widget source="global.CurrentTime" render="Label" position="1663,905" size="210,41" font="Regular;31" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="ClockToText">Format:%e. %b</convert>
+	</widget>
+	<eLabel text="MovieSelection" position="380,90" size="365,70" font="Regular;45" halign="center" foregroundColor="white" backgroundColor="transpGrey2" transparent="1" />
+	<ePixmap position="217,265" size="700,400" zPosition="5" pixmap="SphereFHD/png/listboxen/schmal/listbox_100.png" alphatest="blend" />
+	<widget name="list" position="217,265" size="700,400" zPosition="2" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" transparent="1"  />
+	<widget source="Service" render="Label" position="350,730" size="440,84" font="Bold;36" halign="center" valign="top" zPosition="1" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="MovieInfo">ShortDescription</convert>
+	</widget>
+	<ePixmap position="73,806" zPosition="15" size="210,210" pixmap="SphereFHD/png/extra/cover.png" alphatest="blend" />
+	<!--widget source="Service" render="Cover" position="122,831" size="112,168" zPosition="2" alphatest="blend" /-->
+	<widget source="Service" render="Label" position="1120,160" zPosition="1" size="200,40" font="Regular;30" halign="right" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="ServiceTime">Duration</convert>
+		<convert type="ClockToText">InMinutes</convert>
+	</widget>
+	<widget source="Service" render="Label" position="1590,160" zPosition="1" size="150,40" font="Regular;30" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+		<convert type="MovieInfo">FileSize</convert>
+	</widget>
+	<widget name="freeDiskSpace" position="1120,240" zPosition="1" size="650,160" font="Bold;32" halign="center" valign="center" foregroundColor="grey" backgroundColor="transpGrey" transparent="1" />
+	<ePixmap position="1150,420" size="656,2" zPosition="4" pixmap="SphereFHD/png/extra/sep656.png" />
+	<widget source="Title" render="Label" position="1095,430" size="710,32" zPosition="3" font="Regular;26" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1"/>
+	<ePixmap position="1150,470" size="656,2" zPosition="4" pixmap="SphereFHD/png/extra/sep656.png" />
+	<widget source="Service" render="VRunningText" position="1210,527" size="500,150" font="Regular;26" options="movetype=running,startpoint=0,direction=top,steptime=90,repeat=2,startdelay=4000,wrap" backgroundColor="transpGrey" transparent="1" >
+		<convert type="EventName">ExtendedDescription</convert>
+	</widget>
+	<ePixmap pixmap="SphereFHD/buttons/red.png" position="325,980" size="50,50" alphatest="blend" />
+	<ePixmap pixmap="SphereFHD/buttons/green.png" position="600,980" size="50,50" alphatest="blend" />
+	<ePixmap pixmap="SphereFHD/buttons/yellow.png" position="1025,980" size="50,50" alphatest="blend" />
+	<ePixmap pixmap="SphereFHD/buttons/blue.png" position="1375,980" size="50,50" alphatest="blend" />
+	<widget name="key_red" position="382,980" size="370,50" halign="left" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+	<widget name="key_green" position="657,980" size="370,50" halign="left" valign="center" noWrap="1"  zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+	<widget name="key_yellow" position="1082,980" size="370,50" halign="left" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+	<widget name="key_blue" position="1432,980" size="370,50" halign="left" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+	<ePixmap pixmap="/usr/share/enigma2/SphereFHD/buttons/epg.png" position="1745,1000" size="50,50" alphatest="blend" />
+	<ePixmap pixmap="/usr/share/enigma2/SphereFHD/buttons/menu.png" position="1805,1010" size="50,50" alphatest="blend"/>
+	<ePixmap pixmap="/usr/share/enigma2/SphereFHD/buttons/exit.png" position="1865,1020" size="50,50" alphatest="blend" />
+</screen>
+</skin>
