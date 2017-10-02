@@ -2,10 +2,8 @@ CCcamInfoConfigMenu
 CCcamInfoConfigSwitcher
 CCcamInfoEcmInfoSelection
 CCcamInfoInfoScreen
-CCcamInfoMain
 CCcamInfoMenuConfig
 CCcamInfoRemoteBoxMenu
-CCcamInfoServerMenu
 CCcamInfoShareInfo
 CCcamInfoSubMenu
 CCcamShareViewMenu
