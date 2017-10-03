@@ -1,4 +1,3 @@
-CIHelper
 CIHelperSetup
 CleanupWizard
 ConfigEdit
