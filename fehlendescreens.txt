@@ -1,5 +1,3 @@
-CCcamInfoSubMenu
-CCcamShareViewMenu
 CDInfo
 ChannelSelection_summary
 ChannelSelectionRadio
