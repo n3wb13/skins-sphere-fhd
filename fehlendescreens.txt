@@ -1,6 +1,3 @@
-CCcamInfoMenuConfig
-CCcamInfoRemoteBoxMenu
-CCcamInfoShareInfo
 CCcamInfoSubMenu
 CCcamShareViewMenu
 CDInfo
