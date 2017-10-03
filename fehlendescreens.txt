@@ -97,12 +97,6 @@ MediaPlayer
 menu_12
 MenuDNA
 MenuSummary
-MerlinMusicPlayerFileList
-MerlinMusicPlayerLyrics
-MerlinMusicPlayerScreen
-MerlinMusicPlayerScreenSaver
-MerlinMusicPlayerSetup
-MerlinMusicPlayerSongList
 MessageBoxExt
 MessageBoxGenuine
 MessageBoxSimple
@@ -195,9 +189,6 @@ SoftwareManagerSetup
 SoftwarePanel
 SortableMenu
 SpinnerSelectionBox
-Standby
-StandbySummary
-StandbySummary
 StartWizard
 SubservicesQuickzap
 SwapOverviewScreen
