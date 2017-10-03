@@ -1,4 +1,3 @@
-CCcamInfoConfigSwitcher
 CCcamInfoEcmInfoSelection
 CCcamInfoMenuConfig
 CCcamInfoRemoteBoxMenu
