@@ -1,4 +1,3 @@
-CIHelperSetup
 CleanupWizard
 ConfigEdit
 ConfigSherlock
