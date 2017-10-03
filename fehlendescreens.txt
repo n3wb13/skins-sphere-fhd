@@ -1,6 +1,3 @@
-CDInfo
-ChannelSelection_summary
-ChannelSelectionRadio
 CIHelper
 CIHelperSetup
 CleanupWizard
