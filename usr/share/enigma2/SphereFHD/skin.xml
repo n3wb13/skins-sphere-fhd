@@ -5239,7 +5239,7 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <panel name="function_buttons" />
   </screen>
-<screen name="CCcamInfoMenuConfig" position="center,center" size="1920,1080" title="CCcInfo Menu Config" flags="wfNoBorder">
+  <screen name="CCcamInfoMenuConfig" position="center,center" size="1920,1080" title="CCcInfo Menu Config" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
     <panel name="Time" />
     <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
@@ -5261,7 +5261,8 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <panel name="function_buttons" />
-  </screen><screen name="CCcamInfoRemoteBoxMenu" position="center,center" size="1920,1080" title="CCcInfo Remote Box" flags="wfNoBorder">
+  </screen>
+  <screen name="CCcamInfoRemoteBoxMenu" position="center,center" size="1920,1080" title="CCcInfo Remote Box" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
     <panel name="Time" />
     <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
@@ -5283,7 +5284,8 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <panel name="function_buttons" />
-  </screen><screen name="CCcamInfoShareInfo" position="center,center" size="1920,1080" title="CCcInfo Ext Sharing" flags="wfNoBorder">
+  </screen>
+  <screen name="CCcamInfoShareInfo" position="center,center" size="1920,1080" title="CCcInfo Ext Sharing" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
     <panel name="Time" />
     <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
@@ -5305,7 +5307,8 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <panel name="function_buttons" />
-  </screen><screen name="CCcamInfoSubMenu" position="center,center" size="1920,1080" title="CCcInfo Clients" flags="wfNoBorder">
+  </screen>
+  <screen name="CCcamInfoSubMenu" position="center,center" size="1920,1080" title="CCcInfo Clients" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
     <panel name="Time" />
     <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
@@ -5328,7 +5331,8 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <panel name="function_buttons" />
-  </screen><screen name="CCcamShareViewMenu" position="center,center" size="1920,1080" title="CCcInfo Sharing" flags="wfNoBorder">
+  </screen>
+  <screen name="CCcamShareViewMenu" position="center,center" size="1920,1080" title="CCcInfo Sharing" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
     <panel name="Time" />
     <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
@@ -5354,7 +5358,8 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <panel name="function_buttons" />
-  </screen><screen name="CDInfo" position="center,center" size="1920,1080" title="CDInfo" flags="wfNoBorder">
+  </screen>
+  <screen name="CDInfo" position="center,center" size="1920,1080" title="CDInfo" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
     <panel name="Time" />
     <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
@@ -5378,11 +5383,13 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <panel name="function_buttons" />
-  </screen><screen name="ChannelSelection_summary" position="0,0" size="200,20">
-  <widget font="Regular;20" position="0,0" render="Label" size="200,20" source="parent.ServiceEvent">
-    <convert type="ServiceName">Name</convert>
-  </widget>
-</screen><screen name="ChannelSelectionRadio" position="0,0" size="1920,1080" title="Radio Channel Selection" zPosition="1" backgroundColor="transparent" flags="wfNoBorder">
+  </screen>
+  <screen name="ChannelSelection_summary" position="0,0" size="200,20">
+    <widget font="Regular;20" position="0,0" render="Label" size="200,20" source="parent.ServiceEvent">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+  </screen>
+  <screen name="ChannelSelectionRadio" position="0,0" size="1920,1080" title="Radio Channel Selection" zPosition="1" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-5" size="1920,1080" pixmap="SphereFHD/png/bg2.png" />
     <panel name="Time" />
     <widget source="ServiceEvent" render="Picon" position="65,850" size="220,132" transparent="1" alphatest="blend">
@@ -5431,4 +5438,23 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <ePixmap pixmap="SphereFHD/buttons/epg.png" position="1685,990" size="50,50" alphatest="blend" />
     <ePixmap pixmap="SphereFHD/buttons/menu.png" position="1745,1000" size="50,50" alphatest="blend" />
     <panel name="function_buttons" />
-  </screen></skin>
+  </screen>
+  <screen name="CIHelper" position="center,center" size="1920,1080" title="CIHelper Setup" flags="wfNoBorder">
+  <ePixmap position="2,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+  <panel name="Time" />
+  <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+  <widget source="Title" render="Label" position="1127,750" size="360,40" font="Bold;32" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget name="ci0" position="1180,520" size="300,35" font="Regular;28" valign="center" halign="left" backgroundColor="background" transparent="1" />
+  <widget name="ci0active" position="1120,520" zPosition="1" pixmap="SphereFHD/icons/lock_on.png" size="32,32" alphatest="on" />
+  <widget name="ci0inactive" position="1120,520" zPosition="2" pixmap="SphereFHD/icons/lock_off.png" size="32,32" alphatest="on" />
+  <widget name="ci1" position="1180,600" size="300,35" font="Regular;28" valign="center" halign="left" backgroundColor="background" transparent="1" />
+  <widget name="ci1active" position="1120,600" zPosition="1" pixmap="SphereFHD/icons/lock_on.png" size="32,32" alphatest="on" />
+  <widget name="ci1inactive" position="1120,600" zPosition="2" pixmap="SphereFHD/icons/lock_off.png" size="32,32" alphatest="on" />
+  <widget name="autostart" position="1120,180" size="150,35" font="Regular;28" valign="center" halign="left" backgroundColor="background" transparent="1" />
+  <widget name="labdisabled" position="1308,180" size="172,35" font="Regular;28" valign="center" halign="center" backgroundColor="red" zPosition="1" />
+  <widget name="labactive" position="1308,180" size="172,35" font="Regular;28" valign="center" halign="center" backgroundColor="green" zPosition="2" />
+  <widget name="status" position="1120,240" size="150,35" font="Regular;28" valign="center" halign="left" backgroundColor="background" transparent="1" />
+  <widget name="labstop" position="1308,240" size="172,35" font="Regular;28" valign="center" halign="center" backgroundColor="red" zPosition="1" />
+  <widget name="labrun" position="1308,240" size="172,35" font="Regular;28" valign="center" halign="center" backgroundColor="green" zPosition="2" />
+</screen>
+</skin>
