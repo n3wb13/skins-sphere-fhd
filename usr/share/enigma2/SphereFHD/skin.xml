@@ -5114,33 +5114,33 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <panel name="function_buttons" />
   </screen>
-<screen name="BootlogoSetupScreen" position="center,center" size="1920,1080" title="BootlogoSetupScreen" flags="wfNoBorder">
-  <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
-  <panel name="Time" />
-  <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
-  <widget name="Mlist" position="830,15" size="930,500" zPosition="2" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
-  <widget name="label1" position="828,534" zPosition="2" size="930,35" font="Regular;30" foregroundColor="white" backgroundColor="transpGrey" halign="left" transparent="1" />
-  <panel name="color_buttons" />
+  <screen name="BootlogoSetupScreen" position="center,center" size="1920,1080" title="BootlogoSetupScreen" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget name="Mlist" position="830,15" size="930,500" zPosition="2" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
+    <widget name="label1" position="828,534" zPosition="2" size="930,35" font="Regular;30" foregroundColor="white" backgroundColor="transpGrey" halign="left" transparent="1" />
+    <panel name="color_buttons" />
     <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <panel name="function_buttons" />
-</screen>
-<screen name="BootvideoSetupScreen" position="center,center" size="1920,1080" title="BootvideoSetupScreen" flags="wfNoBorder">
-  <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
-  <panel name="Time" />
-  <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
-  <widget name="Mlist" position="830,15" size="930,500" zPosition="2" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
-  <widget name="label1" position="828,534" zPosition="2" size="930,35" font="Regular;30" foregroundColor="white" backgroundColor="transpGrey" halign="left" transparent="1" />
-  <panel name="color_buttons" />
+    <panel name="function_buttons" />
+  </screen>
+  <screen name="BootvideoSetupScreen" position="center,center" size="1920,1080" title="BootvideoSetupScreen" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget name="Mlist" position="830,15" size="930,500" zPosition="2" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
+    <widget name="label1" position="828,534" zPosition="2" size="930,35" font="Regular;30" foregroundColor="white" backgroundColor="transpGrey" halign="left" transparent="1" />
+    <panel name="color_buttons" />
     <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <panel name="function_buttons" />
-</screen>
-<screen name="CCcamInfoMain" position="center,center" size="1920,1080" title="CCcInfo Main Menu" flags="wfNoBorder">
+    <panel name="function_buttons" />
+  </screen>
+  <screen name="CCcamInfoMain" position="center,center" size="1920,1080" title="CCcInfo Main Menu" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
     <panel name="Time" />
     <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/plugin.png" alphatest="blend" transparent="1" />
@@ -5153,12 +5153,12 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <panel name="function_buttons" />
   </screen>
-<screen name="CCcamInfoServerMenu" position="center,center" size="1920,1080" title="CCcam Info" flags="wfNoBorder">
+  <screen name="CCcamInfoServerMenu" position="center,center" size="1920,1080" title="CCcam Info" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
     <panel name="Time" />
     <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/plugin.png" alphatest="blend" transparent="1" />
     <widget name="info" position="833,10" size="931,600" font="Regular;30" itemHeight="40" zPosition="2" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" enableWrapAround="1" />
-    <eLabel text="CCcInfo Main Menu" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <eLabel text="CCcam Info" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <panel name="color_buttons" />
     <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
@@ -5166,4 +5166,269 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <panel name="function_buttons" />
   </screen>
-</skin>
+  <screen name="CCcamInfoInfoScreen" position="center,center" size="1920,1080" title="CCcInfo General Info" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/plugin.png" alphatest="blend" transparent="1" />
+    <widget name="text" position="833,10" size="931,600" font="Regular;30" itemHeight="40" zPosition="2" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" enableWrapAround="1" />
+    <eLabel text="CCcInfo General Info" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="color_buttons" />
+    <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen>
+  <screen name="CCcamInfoConfigMenu" position="center,center" size="1920,1080" title="CCcamInfoConfigMenu" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="CCcamInfoConfigMenu" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <eLabel text="CCcamInfoConfigMenu" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap position="833,10" size="931,600" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
+    <widget name="config" position="833,10" size="931,600" font="Regular;30" textOffset="5,2" secondfont="Regular;30" itemHeight="40" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
+    <panel name="color_buttons" />
+    <widget name="key_red" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget name="key_green" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget name="key_yellow" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget name="key_blue" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen>
+  <screen name="CCcamInfoConfigSwitcher" position="center,center" size="1920,1080" title="CCcamInfoConfigSwitcher" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" position="1075,765" size="450,55" font="Bold;34" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="list" render="Listbox" position="833,45" size="931,600" scrollbarMode="showOnDemand">
+      <convert type="TemplatedMultiContent">
+                        {"template": [
+                                MultiContentEntryPixmapAlphaTest(pos = (12, 2), size = (40, 40), png = 0),
+                                MultiContentEntryText(pos = (58, 2), size = (500, 40), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
+                                ],
+                                "fonts": [gFont("Regular", 30)],
+                                "itemHeight": 55
+                        }
+                </convert>
+    </widget>
+    <panel name="color_buttons" />
+    <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen>
+  <screen name="CCcamInfoEcmInfoSelection" position="center,center" size="1920,1080" title="CCcInfo ECM Info" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" position="1075,765" size="450,55" font="Bold;34" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="list" render="Listbox" position="833,45" size="931,600" scrollbarMode="showOnDemand">
+      <convert type="TemplatedMultiContent">
+                        {"template": [
+                                MultiContentEntryPixmapAlphaTest(pos = (12, 2), size = (40, 40), png = 0),
+                                MultiContentEntryText(pos = (58, 2), size = (500, 40), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
+                                ],
+                                "fonts": [gFont("Regular", 30)],
+                                "itemHeight": 55
+                        }
+                </convert>
+    </widget>
+    <panel name="color_buttons" />
+    <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen>
+<screen name="CCcamInfoMenuConfig" position="center,center" size="1920,1080" title="CCcInfo Menu Config" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" position="1075,765" size="450,55" font="Bold;34" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="list" render="Listbox" position="833,45" size="931,600" scrollbarMode="showOnDemand">
+      <convert type="TemplatedMultiContent">
+                        {"template": [
+                                MultiContentEntryPixmapAlphaTest(pos = (12, 2), size = (40, 40), png = 0),
+                                MultiContentEntryText(pos = (58, 2), size = (500, 40), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
+                                ],
+                                "fonts": [gFont("Regular", 30)],
+                                "itemHeight": 55
+                        }
+                </convert>
+    </widget>
+    <panel name="color_buttons" />
+    <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen><screen name="CCcamInfoRemoteBoxMenu" position="center,center" size="1920,1080" title="CCcInfo Remote Box" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" position="1075,765" size="450,55" font="Bold;34" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="list" render="Listbox" position="833,45" size="931,600" scrollbarMode="showOnDemand">
+      <convert type="TemplatedMultiContent">
+                        {"template": [
+                                MultiContentEntryPixmapAlphaTest(pos = (12, 2), size = (40, 40), png = 0),
+                                MultiContentEntryText(pos = (58, 2), size = (500, 40), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
+                                ],
+                                "fonts": [gFont("Regular", 30)],
+                                "itemHeight": 55
+                        }
+                </convert>
+    </widget>
+    <panel name="color_buttons" />
+    <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen><screen name="CCcamInfoShareInfo" position="center,center" size="1920,1080" title="CCcInfo Ext Sharing" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" position="1075,765" size="450,55" font="Bold;34" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="list" render="Listbox" position="833,45" size="931,600" scrollbarMode="showOnDemand">
+      <convert type="TemplatedMultiContent">
+                        {"template": [
+                                MultiContentEntryPixmapAlphaTest(pos = (12, 2), size = (40, 40), png = 0),
+                                MultiContentEntryText(pos = (58, 2), size = (500, 40), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
+                                ],
+                                "fonts": [gFont("Regular", 30)],
+                                "itemHeight": 55
+                        }
+                </convert>
+    </widget>
+    <panel name="color_buttons" />
+    <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen><screen name="CCcamInfoSubMenu" position="center,center" size="1920,1080" title="CCcInfo Clients" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" position="1075,765" size="450,55" font="Bold;34" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="list" render="Listbox" position="833,45" size="931,300" scrollbarMode="showOnDemand">
+      <convert type="TemplatedMultiContent">
+                        {"template": [
+                                MultiContentEntryPixmapAlphaTest(pos = (12, 2), size = (40, 40), png = 0),
+                                MultiContentEntryText(pos = (58, 2), size = (500, 40), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
+                                ],
+                                "fonts": [gFont("Regular", 30)],
+                                "itemHeight": 55
+                        }
+                </convert>
+    </widget>
+    <widget name="info" position="833,350" size="931,300" font="Regular;30" itemHeight="40" zPosition="2" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" enableWrapAround="1" />
+    <panel name="color_buttons" />
+    <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen><screen name="CCcamShareViewMenu" position="center,center" size="1920,1080" title="CCcInfo Sharing" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" position="1075,765" size="450,55" font="Bold;34" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="list" render="Listbox" position="833,45" size="931,300" scrollbarMode="showOnDemand">
+      <convert type="TemplatedMultiContent">
+                        {"template": [
+                                MultiContentEntryPixmapAlphaTest(pos = (12, 2), size = (40, 40), png = 0),
+                                MultiContentEntryText(pos = (58, 2), size = (500, 40), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
+                                ],
+                                "fonts": [gFont("Regular", 30)],
+                                "itemHeight": 55
+                        }
+                </convert>
+    </widget>
+    <widget name="uphops" position="833,370" size="465,40" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget name="providers" position="1299,370" size="465,40" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget name="cards" position="833,450" size="465,40" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget name="reshare" position="1299,450" size="465,40" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="color_buttons" />
+    <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen><screen name="CDInfo" position="center,center" size="1920,1080" title="CDInfo" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget name="info" position="830,25" size="931,100" font="Regular;30" itemHeight="40" zPosition="2" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" enableWrapAround="1" />
+    <widget source="Title" render="Label" position="1075,765" size="450,55" font="Bold;34" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="list" render="Listbox" position="830,165" size="931,300" scrollbarMode="showOnDemand">
+      <convert type="TemplatedMultiContent">
+                        {"template": [
+                                MultiContentEntryPixmapAlphaTest(pos = (12, 2), size = (40, 40), png = 0),
+                                MultiContentEntryText(pos = (58, 2), size = (500, 40), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
+                                ],
+                                "fonts": [gFont("Regular", 30)],
+                                "itemHeight": 55
+                        }
+                </convert>
+    </widget>
+    <widget name="info2" position="833,500" size="931,100" font="Regular;30" itemHeight="40" zPosition="2" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" enableWrapAround="1" />
+    <panel name="color_buttons" />
+    <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen><screen name="ChannelSelection_summary" position="0,0" size="200,20">
+  <widget font="Regular;20" position="0,0" render="Label" size="200,20" source="parent.ServiceEvent">
+    <convert type="ServiceName">Name</convert>
+  </widget>
+</screen><screen name="ChannelSelectionRadio" position="0,0" size="1920,1080" title="Radio Channel Selection" zPosition="1" backgroundColor="transparent" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-5" size="1920,1080" pixmap="SphereFHD/png/bg2.png" />
+    <panel name="Time" />
+    <widget source="ServiceEvent" render="Picon" position="65,850" size="220,132" transparent="1" alphatest="blend">
+      <convert type="SphereFHDRefString">ServicelistRef</convert>
+    </widget>
+    <widget source="Title" render="Label" position="385,80" size="360,40" font="Bold;32" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="ServiceEvent" render="Label" position="300,160" size="120,40" font="Regular;30" halign="left" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">
+      </convert>
+    </widget>
+    <widget source="ServiceEvent" render="Label" position="300,160" size="186,40" font="Regular;30" halign="right" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Format:- %H:%M</convert>
+    </widget>
+    <eLabel text="Rest:" position="600,160" size="180,40" font="Regular;30" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="ServiceEvent" render="Label" position="600,160" size="220,40" font="Regular;30" halign="right" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+      <convert type="EventTime">Remaining</convert>
+      <convert type="RemainingToText">InMinutes</convert>
+    </widget>
+    <widget name="list" position="217,216" size="700,480" zPosition="3" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" foregroundColorServiceNotAvail="#818181" colorServiceDescriptionSelected="white" colorServiceDescription="grey" colorEventProgressbar="white" serviceItemHeight="26" serviceNumberFont="Regular;24" serviceNameFont="Regular;28" serviceInfoFont="Regular;28" backgroundColor="transpGrey" transparent="1" />
+    <widget source="ServiceEvent" render="Label" position="350,730" size="440,84" font="Bold;36" halign="center" valign="top" zPosition="5" foregroundColor="white" backgroundColor="transpGrey" transparent="1">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <eLabel text="episode broadcasts" position="1310,85" size="278,42" font="Bold;32" halign="center" foregroundColor="white" backgroundColor="transpGrey2" transparent="1" />
+    <ePixmap position="1346,170" size="208,16" zPosition="1" pixmap="SphereFHD/png/extra/progress_back.png" />
+    <widget source="ServiceEvent" render="Progress" position="1346,170" size="208,16" pixmap="SphereFHD/png/extra/progress.png" borderWidth="2" borderColor="dark" zPosition="2" transparent="1">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <widget source="ServiceEvent" render="SphereFHDEventListDisplay" position="1155,210" size="610,160" rowHeight="40" column0="0,180,white,Regular,26,0,0" column1="180,500,white,Regular,26,0,1" column2="690,135,white,Regular,26,1,2" primetimeoffset="20" alphatest="blend" transparent="1">
+      <convert type="SphereFHDEventList">primetime=no,eventcount=4</convert>
+    </widget>
+    <ePixmap position="1130,420" size="656,2" zPosition="4" pixmap="SphereFHD/png/extra/sep656.png" />
+    <widget source="ServiceEvent" render="SphereFHDEventListDisplay" position="1155,430" size="610,32" rowHeight="30" column0="0,180,label,Regular,26,0,0" column1="180,510,label,Regular,28,0,1" column2="690,70,label,Regular,26,1,2" primetimeoffset="10" transparent="1" alphatest="blend">
+      <convert type="SphereFHDEventList">primetime=yes</convert>
+    </widget>
+    <ePixmap position="1130,473" size="656,2" zPosition="4" pixmap="SphereFHD/png/extra/sep656.png" />
+    <widget source="ServiceEvent" render="VRunningText" options="movetype=running,always=0,startpoint=0,direction=top,steptime=90,repeat=2,startdelay=4000,wrap" position="1210,527" size="500,150" font="Regular;26" halign="center" backgroundColor="transpGrey" transparent="1">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <panel name="color_buttons" />
+    <widget name="key_red" position="382,970" size="370,70" valign="center" halign="left" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget name="key_green" position="732,970" size="370,70" valign="center" halign="left" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget name="key_yellow" position="1082,970" size="370,70" valign="center" halign="left" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget name="key_blue" position="1432,970" size="370,70" valign="center" halign="left" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap pixmap="SphereFHD/buttons/epg.png" position="1685,990" size="50,50" alphatest="blend" />
+    <ePixmap pixmap="SphereFHD/buttons/menu.png" position="1745,1000" size="50,50" alphatest="blend" />
+    <panel name="function_buttons" />
+  </screen></skin>
