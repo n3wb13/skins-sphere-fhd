@@ -1,4 +1,3 @@
-CCcamInfoEcmInfoSelection
 CCcamInfoMenuConfig
 CCcamInfoRemoteBoxMenu
 CCcamInfoShareInfo
