@@ -1,4 +1,3 @@
-CleanupWizard
 ConfigEdit
 ConfigSherlock
 coppyimage
