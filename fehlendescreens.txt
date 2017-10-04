@@ -1,4 +1,3 @@
-ConfigEdit
 ConfigSherlock
 coppyimage
 CoverFindAll
