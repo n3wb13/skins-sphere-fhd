@@ -1,4 +1,3 @@
-ConfigSherlock
 coppyimage
 CrashlogAutoSubmitConfiguration
 CronTimers
@@ -164,7 +163,6 @@ ScriptExecuteruninstall
 ScriptRunner
 setDisplay
 SetupSummary
-SherlockII
 SHOUTcastSetup
 SHOUTcastStreamripperRecordingPath
 SHOUTcastWidget
