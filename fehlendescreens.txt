@@ -107,9 +107,6 @@ MovieEpgSetup
 MovieInfoPreview
 MovieInfoSetup
 MPHelp
-MSNWeatherPlugin
-MSNWeatherPluginEntriesListConfigScreen
-MSNWeatherPluginEntryConfigScreen
 NameserverSetup
 Net_test
 NetworkAfp
