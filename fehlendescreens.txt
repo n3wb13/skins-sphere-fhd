@@ -1,9 +1,5 @@
 ConfigSherlock
 coppyimage
-CoverFindAll
-CoverFindConfigScreen
-CoverFindFile
-CoverFindScreen
 CrashlogAutoSubmitConfiguration
 CronTimers
 CutListEditor
