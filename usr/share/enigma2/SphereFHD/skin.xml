@@ -5501,4 +5501,69 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
   <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
   <panel name="function_buttons" />
 </screen>
+ <!-- MSN Wetter -->
+  <screen name="MSNWeatherPlugin" position="312,200" size="1300,720" title="Weather Plugin">
+    <!--icons -->
+    <widget render="Label" source="caption" position="105,47" zPosition="1" size="800,45" font="Regular;36" foregroundColor="foreground" backgroundColor="blue" transparent="1" />
+    <widget render="Label" source="observationtime" position="908,96" zPosition="1" size="280,30" font="Regular;26" foregroundColor="yellow" transparent="1" backgroundColor="background" halign="right" />
+    <widget render="Label" source="observationpoint" position="798,132" zPosition="1" size="390,80" font="Regular;28" transparent="1" backgroundColor="background" halign="right" />
+    <widget render="MSNWeatherPixmap" source="session.MSNWeather" position="104,101" size="200,200" zPosition="1" transparent="1" alphatest="blend">
+      <convert type="MSNWeather">weathericon,current,/usr/share/enigma2/SphereFHD/WeatherIcons/,png</convert>
+    </widget>
+    <widget render="Label" source="currentTemp" position="330,105" zPosition="1" size="200,35" font="Regular;30" foregroundColor="yellow" backgroundColor="background" transparent="1" />
+    <widget render="Label" source="feelsliketemp" position="330,147" zPosition="1" size="350,40" font="Regular;26" foregroundColor="yellow" backgroundColor="background" transparent="1" />
+    <widget render="Label" source="condition" position="330,196" zPosition="1" size="350,40" backgroundColor="background" font="Regular;26" transparent="1" />
+    <widget render="Label" source="wind_condition" position="330,245" zPosition="1" size="350,40" backgroundColor="background" font="Regular;26" transparent="1" />
+    <widget render="Label" source="humidity" position="330,294" zPosition="1" size="350,40" backgroundColor="background" font="Regular;26" valign="bottom" transparent="1" />
+    <widget render="MSNWeatherPixmap" source="session.MSNWeather" position="238,453" size="150,150" zPosition="1" transparent="1" alphatest="blend">
+      <convert type="MSNWeather">weathericon,day2,/usr/share/enigma2/SphereFHD/WeatherIcons/,png</convert>
+    </widget>
+    <widget render="Label" source="weekday2" position="220,370" zPosition="1" size="190,80" halign="center" valign="center" foregroundColor="yellow" backgroundColor="background" font="Regular;25" transparent="1" />
+    <widget render="Label" source="weekday2_temp" position="220,613" zPosition="1" size="190,90" halign="center" valign="bottom" foregroundColor="yellow" backgroundColor="background" font="Regular;25" transparent="1" />
+    <widget render="Label" source="weekday3" position="438,370" zPosition="1" size="190,80" halign="center" valign="center" backgroundColor="background" font="Regular;25" transparent="1" />
+    <widget render="MSNWeatherPixmap" source="session.MSNWeather" position="459,453" size="150,150" zPosition="1" transparent="1" alphatest="blend">
+      <convert type="MSNWeather">weathericon,day3,/usr/share/enigma2/SphereFHD/WeatherIcons/,png</convert>
+    </widget>
+    <widget render="Label" source="weekday3_temp" position="438,613" zPosition="1" size="190,90" halign="center" valign="bottom" backgroundColor="background" font="Regular;25" transparent="1" />
+    <widget render="Label" source="weekday4" position="660,370" zPosition="1" size="190,80" halign="center" valign="center" foregroundColor="yellow" backgroundColor="background" font="Regular;25" transparent="1" />
+    <widget render="MSNWeatherPixmap" source="session.MSNWeather" position="686,453" size="150,150" zPosition="1" transparent="1" alphatest="blend">
+      <convert type="MSNWeather">weathericon,day4,/usr/share/enigma2/SphereFHD/WeatherIcons/,png</convert>
+    </widget>
+    <widget render="Label" source="weekday4_temp" position="660,613" zPosition="1" size="190,90" halign="center" valign="bottom" foregroundColor="yellow" backgroundColor="background" font="Regular;25" transparent="1" />
+    <widget render="Label" source="weekday5" position="881,370" zPosition="1" size="190,80" halign="center" valign="center" backgroundColor="background" font="Regular;25" transparent="1" />
+    <widget render="MSNWeatherPixmap" source="session.MSNWeather" position="907,453" size="150,150" zPosition="1" transparent="1" alphatest="blend">
+      <convert type="MSNWeather">weathericon,day5,/usr/share/enigma2/SphereFHD/WeatherIcons/,png</convert>
+    </widget>
+    <widget render="Label" source="weekday5_temp" position="881,613" zPosition="1" size="190,90" halign="center" valign="bottom" backgroundColor="background" font="Regular;25" transparent="1" />
+    <widget render="Label" source="statustext" position="82,37" zPosition="1" size="1119,328" font="Regular;28" halign="center" valign="center" backgroundColor="background" transparent="1" />
+  </screen>
+  <screen name="MSNWeatherPluginEntriesListConfigScreen" position="center,center" size="1920,1080" title="WeatherPlugin: List of Entries" flags="wfNoBorder">
+    <ePixmap position="center,center" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="WeatherPlugin: List of Entries" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <eLabel text="List of Entries" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap position="833,10" size="931,600" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
+    <widget source="city" render="Label" position="859,40" size="400,50" zPosition="10" font="Regular;32" halign="left" valign="center" transparent="1" backgroundColor="background" foregroundColor="white" />
+    <widget render="Label" position="1293,40" size="400,50" zPosition="10" font="Regular;32" halign="left" valign="center" transparent="1" backgroundColor="background" foregroundColor="white" source="language" />
+    <widget backgroundColor="background" enableWrapAround="1" position="860,100" name="entrylist" itemHeight="35" font="Regular;28" scrollbarMode="showOnDemand" size="830,510" selectionPixmap="SphereFHD/selpic/1240x75.png" transparent="1" />
+    <widget name="config" position="833,10" size="931,600" font="Regular;30" textOffset="5,2" secondfont="Regular;30" itemHeight="40" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
+    <panel name="color_buttons" />
+    <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen>
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="MSNWeatherPluginEntryConfigScreen" position="0,0" size="1920,1080" title="WeatherPlugin: Edit Entry">
+  <ePixmap position="center,center" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" /><widget font="Regular; 42" position="871,564" render="Label" size="850,50" source="Title" transparent="1" valign="top" zPosition="1" halign="center" backgroundColor="background" foregroundColor="white" />
+  <panel name="WeatherPlugin: Edit Entry" />
+  <widget enableWrapAround="1" position="838,65" name="config" itemHeight="35" font="Regular;28" scrollbarMode="showOnDemand" size="850,550" selectionPixmap="SphereFHD/selpic/1240x75.png" transparent="1" />
+  <widget name="config" position="833,10" size="931,600" font="Regular;30" textOffset="5,2" secondfont="Regular;30" itemHeight="40" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
+  <panel name="color_buttons" />
+  <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <panel name="function_buttons" />
+</screen>
 </skin>
