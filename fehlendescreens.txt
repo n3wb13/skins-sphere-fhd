@@ -190,6 +190,7 @@ uShareSelection
 vEditor
 VideoFinetune
 VideoWizard
+VirtualKeyBoard
 VlcMediaListScreen
 VlcServerConfigScreen
 VlcServerListScreen
