@@ -13,7 +13,6 @@ DreamExplorerII
 DreamPackageWizard
 DVDPlayer
 DVDSummary
-easyCIconfigMenu
 EcmInfoConfigMenu
 EcmInfoScreen
 EventViewContextMenu
