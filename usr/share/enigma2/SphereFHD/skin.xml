@@ -5656,25 +5656,58 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <panel name="function_buttons" />
   </screen>
   <screen name="E2log" position="center,center" size="1920,1080" title="E2log erstellen" backgroundColor="transparent" flags="wfNoBorder">
-  <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
-  <panel name="Time" />
-  <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
-  <widget source="Title" render="Label" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <ePixmap position="833,80" size="931,520" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
-  <widget source="status" render="Label" position="833,10" size="931,40" foregroundColor="white" backgroundColor="transpGrey" font="Regular;30" zPosition="2" transparent="1" />
-  <widget name="config" position="833,80" size="931,520" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" />
-  <panel name="color_buttons" />
-  <panel name="function_buttons" />
-</screen>
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap position="833,80" size="931,520" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
+    <widget source="status" render="Label" position="833,10" size="931,40" foregroundColor="white" backgroundColor="transpGrey" font="Regular;30" zPosition="2" transparent="1" />
+    <widget name="config" position="833,80" size="931,520" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" />
+    <panel name="color_buttons" />
+    <panel name="function_buttons" />
+  </screen>
   <screen name="easyCIconfigMenu" position="center,center" size="1920,1080" title="CI Assignment" backgroundColor="transparent" flags="wfNoBorder">
-  <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
-  <panel name="Time" />
-  <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
-  <widget source="Title" render="Label" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <ePixmap position="833,80" size="931,520" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
-  <widget source="ServiceList_desc" render="Label" position="833,10" size="931,40" foregroundColor="white" backgroundColor="transpGrey" font="Regular;30" zPosition="2" transparent="1" />
-  <widget render="Label" source="ServiceList_info" position="833,80" size="931,520" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" />
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap position="833,80" size="931,520" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
+    <widget source="ServiceList_desc" render="Label" position="833,10" size="931,40" foregroundColor="white" backgroundColor="transpGrey" font="Regular;30" zPosition="2" transparent="1" />
+    <widget render="Label" source="ServiceList_info" position="833,80" size="931,520" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" />
+    <panel name="color_buttons" />
+    <panel name="function_buttons" />
+  </screen>
+  <screen name="EcmInfoConfigMenu" position="center,center" size="1920,1080" title="CCcInfo ECM Info" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/plugin.png" alphatest="blend" transparent="1" />
+    <widget name="config" position="833,10" size="931,600" font="Regular;30" itemHeight="40" zPosition="2" scrollbarMode="showOnDemand" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" enableWrapAround="1" />
+    <widget source="Title" render="Label" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="color_buttons" />
+    <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen>
+  <screen name="EcmInfoScreen" position="0,0" size="1920,1080" title="EcmInfoScreen" flags="wfNoBorder" backgroundColor="transparent">
+  <ePixmap position="0,-2" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+  <ePixmap position="69,800" zPosition="1" size="260,260" pixmap="SphereFHD/menu/info.png" alphatest="blend" transparent="1" />
   <panel name="color_buttons" />
-  <panel name="function_buttons" />
+  <widget source="key_red" render="Label" position="382,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget source="key_green" render="Label" position="732,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget source="key_yellow" render="Label" position="1082,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget source="key_blue" render="Label" position="1432,970" size="370,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <panel name="Time" />
+  <widget name="irdeto" position="865,600" size="80,40" font="Regular;28" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget name="seca" position="950,600" size="80,40" font="Regular;28" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget name="nagra" position="1035,600" size="80,40" font="Regular;28" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget name="via" position="1120,600" size="80,40" font="Regular;28" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget name="conax" position="1205,600" size="80,40" font="Regular;28" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget name="betacrypt" position="1290,600" size="80,40" font="Regular;28" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget name="crypto" position="1375,600" size="80,40" font="Regular;28" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget name="dreamcrypt" position="1460,600" size="80,40" font="Regular;28" backgroundColor="transpGrey" foregroundColor="white" transparent="1" />
+  <widget name="nds" position="1545,600" size="80,40" font="Regular;28" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <widget name="ecmInfo" position="1630,600" size="80,40" font="Regular;28" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
 </screen>
 </skin>
