@@ -5666,4 +5666,15 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
   <panel name="color_buttons" />
   <panel name="function_buttons" />
 </screen>
+  <screen name="easyCIconfigMenu" position="center,center" size="1920,1080" title="CI Assignment" backgroundColor="transparent" flags="wfNoBorder">
+  <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+  <panel name="Time" />
+  <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+  <widget source="Title" render="Label" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <ePixmap position="833,80" size="931,520" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
+  <widget source="ServiceList_desc" render="Label" position="833,10" size="931,40" foregroundColor="white" backgroundColor="transpGrey" font="Regular;30" zPosition="2" transparent="1" />
+  <widget render="Label" source="ServiceList_info" position="833,80" size="931,520" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" />
+  <panel name="color_buttons" />
+  <panel name="function_buttons" />
+</screen>
 </skin>
