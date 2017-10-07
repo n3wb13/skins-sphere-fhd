@@ -17,8 +17,6 @@ E2log
 easyCIconfigMenu
 EcmInfoConfigMenu
 EcmInfoScreen
-EGCCcamConfigEdit
-EGCCcamEditAddLine
 EventViewContextMenu
 EventViewSimple
 FastScanScreen
