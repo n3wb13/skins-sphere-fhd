@@ -37,6 +37,10 @@
     <color name="selection" value="#00149bae" />
     <color name="SphereGrey" value="#30888888" />
     <color name="teac" value="#00139aae" />
+    <color name="Text1" value="#00ffffff" />
+    <color name="Text2" value="#00bbbbbb" />
+    <color name="Text3" value="#00545454" />
+    <color name="TextInfo" value="#00ffffff" />
     <color name="transfont" value="#ccffffff" />
     <color name="transparent" value="#ffffffff" />
     <color name="transpBlack" value="#80000000" />
@@ -5655,7 +5659,105 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <widget source="key_blue" render="Label" position="1487,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
     <panel name="function_buttons" />
   </screen>
-  <screen name="E2log" position="center,center" size="1920,1080" title="E2log erstellen" backgroundColor="transparent" flags="wfNoBorder">
+  <screen name="CronTimers" position="0,0" size="1920,1080" title="CronTimers" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <ePixmap position="68,792" size="256,256" zPosition="1" pixmap="SphereFHD/icons/crontimers.png" alphatest="blend" transparent="1" />
+    <widget font="Regular; 42" position="884,747" render="Label" size="850,50" source="Title" transparent="1" valign="top" zPosition="1" halign="center" backgroundColor="background" foregroundColor="white" />
+    <widget position="875,95" name="lab1" font="Regular;28" backgroundColor="background" foregroundColor="TextInfo" size="200,40" valign="center" transparent="1" />
+    <widget position="1522,95" name="lab2" font="Regular;28" backgroundColor="background" foregroundColor="TextInfo" size="200,40" valign="center" transparent="1" />
+    <!-- /*Buttons-->
+    <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="335,980" size="50,50" alphatest="blend" />
+    <ePixmap name="green" pixmap="SphereFHD/buttons/green.png" position="700,980" size="50,50" alphatest="blend" />
+    <ePixmap pixmap="SphereFHD/buttons/yellow.png" position="1065,980" size="50,50" alphatest="blend" />
+    <ePixmap pixmap="SphereFHD/buttons/blue.png" position="1430,980" size="50,50" alphatest="blend" />
+    <widget source="key_red" render="Label" position="392,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="757,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1125,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1487,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <!-- /*Buttons-->
+    <panel name="function_buttons" />
+  </screen>
+  <screen name="CutListEditor" position="0,0" size="1920,1080" title="CutListEditor" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <eLabel backgroundColor="background" font="Regular; 42" position="892,762" size="850,50" text="Cutlist editor" transparent="1" foregroundColor="TextInfo" valign="top" halign="center" />
+    <widget backgroundColor="background" font="Regular; 35" halign="left" position="799,534" render="Label" size="220,40" source="session.CurrentService" transparent="1" valign="center" zPosition="5">
+      <convert type="ServicePosition">Position,Detailed</convert>
+    </widget>
+    <widget backgroundColor="background" font="Regular; 35" halign="right" position="1639,534" render="Label" size="150,40" source="session.CurrentService" transparent="1" valign="center" zPosition="5">
+      <convert type="ServicePosition">Length</convert>
+    </widget>
+    <widget backgroundColor="background" foregroundColor="yellow" font="Regular; 35" halign="center" position="799,25" render="Label" size="970,45" source="session.CurrentService" transparent="1" valign="center" zPosition="5">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget backgroundColor="darkgrey" foregroundColor="lightblue" name="Timeline" pointer="skin_default/position_arrow.png:3,5" position="255,855" size="1400,40" zPosition="5" />
+    <widget position="25,150" render="Listbox" scrollbarMode="showOnDemand" scrollbarWidth="5" scrollbarSliderForegroundColor="lightgrey" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" size="700,500" source="cutlist" zPosition="3" selectionPixmap="SphereFHD/selpic/1240x75.png" transparent="1">
+      <convert type="TemplatedMultiContent">{"template": [MultiContentEntryText(pos=(0,4), size=(280, 26), text = 1, flags = RT_HALIGN_CENTER),
+             MultiContentEntryText(pos=(400,4), size=(100, 26), text = 2, flags = RT_HALIGN_CENTER)],
+             "fonts": [gFont("Regular", 28)], "itemHeight": 35}</convert>
+    </widget>
+    <!-- /*Buttons-->
+    <ePixmap name="Button" pixmap="SphereFHD/buttons/steuerkreuz l_r.png" position="1620,1000" size="50,50" alphatest="blend" transparent="0" />
+    <ePixmap name="Button" pixmap="SphereFHD/buttons/steuerkreuz u_d.png" position="1745,1000" size="50,50" transparent="0" alphatest="blend" />
+    <!--Buttons */-->
+  </screen>
+  <screen name="DeviceBrowser" position="0,0" size="1920,1080" title="DeviceBrowser" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <ePixmap position="88,820" size="220,220" zPosition="1" pixmap="SphereFHD/icons/info1.png" alphatest="blend" transparent="1" />
+    <widget font="Regular; 42" position="892,762" render="Label" size="850,50" source="Title" transparent="1" valign="top" zPosition="1" halign="center" backgroundColor="background" foregroundColor="TextInfo" />
+    <widget enableWrapAround="1" position="847,6" name="filelist" itemHeight="35" font="Regular;28" scrollbarMode="showOnDemand" size="900,700" selectionPixmap="SpereFHD/selpic/1240x75.png" transparent="1" />
+    <!-- /*Buttons-->
+    <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="335,980" size="50,50" alphatest="blend" />
+    <ePixmap name="green" pixmap="SphereFHD/buttons/green.png" position="700,980" size="50,50" alphatest="blend" />
+    <widget source="key_red" render="Label" position="392,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="757,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <!-- /*Buttons-->
+  </screen>
+  <screen name="DirectoryBrowser" position="0,0" size="1920,1080" title="DirectoryBrowser" flags="wfNoBorder">
+    <ePixmap position="center,center" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg4.png" />
+    <ePixmap position="88,820" size="220,220" zPosition="1" pixmap="SphereFHD/icons/info1.png" alphatest="blend" transparent="1" />
+    <eLabel backgroundColor="background" foregroundColor="Text1" name="" position="center,35" size="950,650" zPosition="-10" />
+    <ePixmap alphatest="blend" pixmap="SphereFHD/icons/line1.png" position="center,680" size="950,8" zPosition="1" />
+    <ePixmap alphatest="blend" pixmap="SphereFHD/icons/line1.png" position="center,30" size="950,8" zPosition="1" />
+    <widget name="filelist" position="center,120" scrollbarMode="showOnDemand" scrollbarWidth="5" scrollbarSliderForegroundColor="lightgrey" scrollbarSliderBorderColor="darkgrey" scrollbarSliderBorderWidth="1" size="710,490" transparent="1" zPosition="3" />
+    <!-- /*Buttons-->
+    <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="498,705" size="50,50" alphatest="blend" />
+    <ePixmap name="green" pixmap="SphereFHD/buttons/green.png" position="963,705" size="50,50" alphatest="blend" />
+    <widget source="key_red" render="Label" position="579,696" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" text="Cancel" />
+    <widget source="key_green" render="Label" position="1042,696" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" text="Save" />
+    <!-- /*Buttons-->
+  </screen>
+  <screen name="Disk_Speed" position="0,0" size="1920,1080" title="Disk_Speed" flags="wfNoBorder">
+   <ePixmap position="3,center" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+   <ePixmap position="88,820" size="220,220" zPosition="1" pixmap="SphereFHD/icons/info1.png" alphatest="blend" transparent="1" />
+   <widget font="Regular; 42" position="892,762" render="Label" size="850,50" source="Title" transparent="1" valign="top" zPosition="1" halign="center" backgroundColor="background" foregroundColor="TextInfo" />
+   <widget enableWrapAround="1" position="844,44" name="label1" halign="center" itemHeight="35" font="Regular;36" foregroundColor="blue" backgroundColor="background" size="900,100" transparent="1" />
+   <widget enableWrapAround="1" position="844,152" name="label2" halign="center" itemHeight="35" font="Regular;30" size="900,226" transparent="1" backgroundColor="background" />
+   <widget position="844,391" name="config" itemHeight="35" font="Regular;28" scrollbarMode="showOnDemand" size="900,500" selectionPixmap="SphereFHD/selpic/1240x75.png" transparent="1" backgroundColor="background" zPosition="2" />
+   <!-- /*Buttons-->
+   <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="335,980" size="50,50" alphatest="blend" />
+   <ePixmap name="green" pixmap="SphereFHD/buttons/green.png" position="700,980" size="50,50" alphatest="blend" />
+   <ePixmap name="blue" pixmap="SphereFHD/buttons/blue.png" position="1065,980" size="50,50" alphatest="blend" />
+   <widget source="key_red" render="Label" position="392,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+   <widget source="key_green" render="Label" position="757,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+   <widget source="key_blue" render="Label" position="1125,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+   <!-- /*Buttons-->
+ </screen>
+ <screen name="Disk_Test" position="center,225" size="1300,720" title="Disk_Test">
+  <widget font="Regular; 42" position="62,25" render="Label" size="850,50" source="Title" transparent="1" valign="top" zPosition="1" halign="left" backgroundColor="background" foregroundColor="TextInfo" text="Disk Speed Test" />
+  <widget enableWrapAround="1" position="62,125" name="label1" halign="left" itemHeight="35" font="Regular;36" foregroundColor="blue" size="900,50" transparent="1" backgroundColor="background" />
+  <widget enableWrapAround="1" position="62,250" name="label2" halign="left" itemHeight="35" font="Regular;30" size="900,120" transparent="1" backgroundColor="background" />
+  <ePixmap pixmap="SphereFHD/icons/disk_speed1.png" position="24,466" size="1240,50" transparent="0" zPosition="-5" />  
+  <!-- /*Buttons-->
+  <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="35,643" size="50,50" alphatest="blend" />
+  <widget source="key_red" render="Label" position="96,629" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <!-- /*Buttons-->
+  <eLabel name="spaceused" text=" 1 SD" position="18,518" size="100,30" font="Regular; 26" halign="left" backgroundColor="black" transparent="1" zPosition="5" />
+  <eLabel name="spaceused1" text=" 1 HD" position="72,518" size="100,28" font="Regular; 26" halign="left" backgroundColor="black" transparent="1" zPosition="5" />
+  <eLabel name="spaceused2" text=" 2 HD" position="132,518" size="100,30" font="Regular; 26" halign="left" backgroundColor="black" transparent="1" zPosition="5" />
+  <eLabel name="spaceused3" text=" More then 2 HD" position="602,520" size="220,30" font="Regular; 26" halign="left" backgroundColor="black" transparent="1" zPosition="5" />
+  <widget name="spaceused" position="100,875" size="1720,40" foregroundColor="blue" backgroundColor="Text1" zPosition="3" />
+</screen>
+<screen name="E2log" position="center,center" size="1920,1080" title="E2log erstellen" backgroundColor="transparent" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
     <panel name="Time" />
     <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
