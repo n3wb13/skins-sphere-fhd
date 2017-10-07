@@ -13,7 +13,6 @@ DreamExplorerII
 DreamPackageWizard
 DVDPlayer
 DVDSummary
-E2log
 easyCIconfigMenu
 EcmInfoConfigMenu
 EcmInfoScreen
