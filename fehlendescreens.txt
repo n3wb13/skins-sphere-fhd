@@ -13,8 +13,6 @@ DreamExplorerII
 DreamPackageWizard
 DVDPlayer
 DVDSummary
-EcmInfoConfigMenu
-EcmInfoScreen
 EventViewContextMenu
 EventViewSimple
 FastScanScreen
