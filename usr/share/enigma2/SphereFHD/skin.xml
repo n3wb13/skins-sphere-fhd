@@ -5567,93 +5567,103 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <panel name="function_buttons" />
   </screen>
   <screen name="CoverFindConfigScreen" position="center,center" size="1920,1080" title="CoverFind" flags="wfNoBorder">
-  <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
-  <panel name="Time" />
-  <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
-  <widget name="info" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <ePixmap position="833,10" size="931,600" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
-  <widget name="config" position="833,10" size="931,600" font="Regular;30" textOffset="5,2" secondfont="Regular;30" itemHeight="40" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
-  <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="335,980" size="50,50" alphatest="blend" />
-  <ePixmap name="green" pixmap="SphereFHD/buttons/green.png" position="700,980" size="50,50" alphatest="blend" />
-  <ePixmap pixmap="SphereFHD/buttons/yellow.png" position="1065,980" size="50,50" alphatest="blend" />
-  <ePixmap pixmap="SphereFHD/buttons/blue.png" position="1430,980" size="50,50" alphatest="blend" />
-  <widget source="key_red" render="Label" position="392,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_green" render="Label" position="757,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_yellow" render="Label" position="1125,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_blue" render="Label" position="1487,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <panel name="function_buttons" />
-</screen>
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget name="info" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap position="833,10" size="931,600" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
+    <widget name="config" position="833,10" size="931,600" font="Regular;30" textOffset="5,2" secondfont="Regular;30" itemHeight="40" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="335,980" size="50,50" alphatest="blend" />
+    <ePixmap name="green" pixmap="SphereFHD/buttons/green.png" position="700,980" size="50,50" alphatest="blend" />
+    <ePixmap pixmap="SphereFHD/buttons/yellow.png" position="1065,980" size="50,50" alphatest="blend" />
+    <ePixmap pixmap="SphereFHD/buttons/blue.png" position="1430,980" size="50,50" alphatest="blend" />
+    <widget source="key_red" render="Label" position="392,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="757,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1125,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1487,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen>
   <screen name="CoverFindAll" position="center,center" size="1920,1080" title="CoverFind" flags="wfNoBorder">
-  <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
-  <panel name="Time" />
-  <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
-  <widget source="Title" render="Label" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <ePixmap position="833,10" size="931,600" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
-  <widget name="cover" position="350,30" size="289,420" alphatest="on" />
-  <widget name="list" position="833,10" size="931,600" font="Regular;30" textOffset="5,2" secondfont="Regular;30" itemHeight="40" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
-  <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="335,980" size="50,50" alphatest="blend" />
-  <ePixmap name="green" pixmap="SphereFHD/buttons/green.png" position="700,980" size="50,50" alphatest="blend" />
-  <ePixmap pixmap="SphereFHD/buttons/yellow.png" position="1065,980" size="50,50" alphatest="blend" />
-  <ePixmap pixmap="SphereFHD/buttons/blue.png" position="1430,980" size="50,50" alphatest="blend" />
-  <widget source="key_red" render="Label" position="392,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_green" render="Label" position="757,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_yellow" render="Label" position="1125,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_blue" render="Label" position="1487,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <panel name="function_buttons" />
-</screen>
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap position="833,10" size="931,600" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
+    <widget name="cover" position="350,30" size="289,420" alphatest="on" />
+    <widget name="list" position="833,10" size="931,600" font="Regular;30" textOffset="5,2" secondfont="Regular;30" itemHeight="40" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="335,980" size="50,50" alphatest="blend" />
+    <ePixmap name="green" pixmap="SphereFHD/buttons/green.png" position="700,980" size="50,50" alphatest="blend" />
+    <ePixmap pixmap="SphereFHD/buttons/yellow.png" position="1065,980" size="50,50" alphatest="blend" />
+    <ePixmap pixmap="SphereFHD/buttons/blue.png" position="1430,980" size="50,50" alphatest="blend" />
+    <widget source="key_red" render="Label" position="392,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="757,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1125,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1487,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen>
   <screen name="CoverFindScreen" position="center,center" size="1920,1080" title="CoverFind" flags="wfNoBorder">
-  <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
-  <panel name="Time" />
-  <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
-  <widget source="Title" render="Label" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <ePixmap position="833,10" size="931,600" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
-  <widget name="searchinfo" position="945,645" size="700,100" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />  
-  <widget name="list" position="833,10" size="931,600" font="Regular;30" textOffset="5,2" secondfont="Regular;30" itemHeight="40" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
-  <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="335,980" size="50,50" alphatest="blend" />
-  <ePixmap name="green" pixmap="SphereFHD/buttons/green.png" position="700,980" size="50,50" alphatest="blend" />
-  <ePixmap pixmap="SphereFHD/buttons/yellow.png" position="1065,980" size="50,50" alphatest="blend" />
-  <ePixmap pixmap="SphereFHD/buttons/blue.png" position="1430,980" size="50,50" alphatest="blend" />
-  <widget source="key_red" render="Label" position="392,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_green" render="Label" position="757,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_yellow" render="Label" position="1125,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_blue" render="Label" position="1487,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <panel name="function_buttons" />
-</screen>
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap position="833,10" size="931,600" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
+    <widget name="searchinfo" position="945,645" size="700,100" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget name="list" position="833,10" size="931,600" font="Regular;30" textOffset="5,2" secondfont="Regular;30" itemHeight="40" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="335,980" size="50,50" alphatest="blend" />
+    <ePixmap name="green" pixmap="SphereFHD/buttons/green.png" position="700,980" size="50,50" alphatest="blend" />
+    <ePixmap pixmap="SphereFHD/buttons/yellow.png" position="1065,980" size="50,50" alphatest="blend" />
+    <ePixmap pixmap="SphereFHD/buttons/blue.png" position="1430,980" size="50,50" alphatest="blend" />
+    <widget source="key_red" render="Label" position="392,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="757,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1125,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1487,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen>
   <screen name="CoverFindFile" position="center,center" size="1920,1080" title="Select a cover file" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap position="835,6" size="931,600" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
+    <widget name="picture" position="350,30" size="289,420" alphatest="on" />
+    <widget name="filelist" position="833,10" size="931,600" font="Regular;30" textOffset="5,2" secondfont="Regular;30" itemHeight="40" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
+    <widget name="media" position="945,645" size="700,100" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="335,980" size="50,50" alphatest="blend" />
+    <ePixmap name="green" pixmap="SphereFHD/buttons/green.png" position="700,980" size="50,50" alphatest="blend" />
+    <ePixmap pixmap="SphereFHD/buttons/yellow.png" position="1065,980" size="50,50" alphatest="blend" />
+    <ePixmap pixmap="SphereFHD/buttons/blue.png" position="1430,980" size="50,50" alphatest="blend" />
+    <widget source="key_red" render="Label" position="392,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="757,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1125,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1487,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen>
+  <screen name="coppyimage" position="center,center" size="1920,1080" title="Copy Image" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
+    <panel name="Time" />
+    <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
+    <widget source="Title" render="Label" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap position="833,10" size="931,600" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
+    <widget name="countrymenu" position="833,10" size="931,600" font="Regular;30" textOffset="5,2" secondfont="Regular;30" itemHeight="40" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
+    <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="335,980" size="50,50" alphatest="blend" />
+    <ePixmap name="green" pixmap="SphereFHD/buttons/green.png" position="700,980" size="50,50" alphatest="blend" />
+    <ePixmap pixmap="SphereFHD/buttons/yellow.png" position="1065,980" size="50,50" alphatest="blend" />
+    <ePixmap pixmap="SphereFHD/buttons/blue.png" position="1430,980" size="50,50" alphatest="blend" />
+    <widget source="key_red" render="Label" position="392,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_green" render="Label" position="757,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_yellow" render="Label" position="1125,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <widget source="key_blue" render="Label" position="1487,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+    <panel name="function_buttons" />
+  </screen>
+  <screen name="E2log" position="center,center" size="1920,1080" title="E2log erstellen" backgroundColor="transparent" flags="wfNoBorder">
   <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
   <panel name="Time" />
   <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
   <widget source="Title" render="Label" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <ePixmap position="835,6" size="931,600" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
-  <widget name="picture" position="350,30" size="289,420" alphatest="on" />
-  <widget name="filelist" position="833,10" size="931,600" font="Regular;30" textOffset="5,2" secondfont="Regular;30" itemHeight="40" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
-  <widget name="media" position="945,645" size="700,100" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="335,980" size="50,50" alphatest="blend" />
-  <ePixmap name="green" pixmap="SphereFHD/buttons/green.png" position="700,980" size="50,50" alphatest="blend" />
-  <ePixmap pixmap="SphereFHD/buttons/yellow.png" position="1065,980" size="50,50" alphatest="blend" />
-  <ePixmap pixmap="SphereFHD/buttons/blue.png" position="1430,980" size="50,50" alphatest="blend" />
-  <widget source="key_red" render="Label" position="392,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_green" render="Label" position="757,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_yellow" render="Label" position="1125,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_blue" render="Label" position="1487,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <panel name="function_buttons" />
-</screen>
-  <screen name="coppyimage" position="center,center" size="1920,1080" title="Copy Image" flags="wfNoBorder">
-  <ePixmap position="0,0" zPosition="-10" size="1920,1080" pixmap="SphereFHD/png/bg3.png" />
-  <panel name="Time" />
-  <ePixmap position="68,805" size="220,220" zPosition="1" pixmap="SphereFHD/menu/setup.png" alphatest="blend" transparent="1" />
-  <widget source="Title" render="Label" position="1100,780" size="400,50" font="Bold;40" halign="center" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />  
-  <ePixmap position="833,10" size="931,600" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
-    
-  <widget name="countrymenu" position="833,10" size="931,600" font="Regular;30" textOffset="5,2" secondfont="Regular;30" itemHeight="40" scrollbarMode="showNever" scrollbarWidth="0" scrollbarSliderBorderColor="grey" backgroundColor="transpGrey" transparent="1" />
-  <ePixmap name="red" pixmap="SphereFHD/buttons/red.png" position="335,980" size="50,50" alphatest="blend" />
-  <ePixmap name="green" pixmap="SphereFHD/buttons/green.png" position="700,980" size="50,50" alphatest="blend" />
-  <ePixmap pixmap="SphereFHD/buttons/yellow.png" position="1065,980" size="50,50" alphatest="blend" />
-  <ePixmap pixmap="SphereFHD/buttons/blue.png" position="1430,980" size="50,50" alphatest="blend" />
-  <widget source="key_red" render="Label" position="392,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_green" render="Label" position="757,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_yellow" render="Label" position="1125,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
-  <widget source="key_blue" render="Label" position="1487,970" size="300,70" valign="center" noWrap="1" zPosition="1" font="Regular;31" foregroundColor="white" backgroundColor="transpGrey" transparent="1" />
+  <ePixmap position="833,80" size="931,520" zPosition="5" pixmap="SphereFHD/png/listboxen/listbox_40.png" alphatest="blend" />
+  <widget source="status" render="Label" position="833,10" size="931,40" foregroundColor="white" backgroundColor="transpGrey" font="Regular;30" zPosition="2" transparent="1" />
+  <widget name="config" position="833,80" size="931,520" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" />
+  <panel name="color_buttons" />
   <panel name="function_buttons" />
 </screen>
 </skin>
